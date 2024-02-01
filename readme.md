@@ -1,5 +1,37 @@
-# Endpoint API Flask
-Este proyecto es una API desarrollada en Flask para un sistema de facturación, que permite la autenticación de usuarios, así como la recuperación de información sobre facturas por día retornado por un endpoint en formato json. Este proyecto fue creado por Yulian Planas bajo la necesidad de un sistema de facturación para integraciones de aplicaciones destinadas a las necesidades de una PYME.
+<h1 align="center">API FLASK</h1>
+
+<p align="center">
+    <a href="https://www.python.org/downloads/release/python-361/" align="center">
+        <img alt="Python" src="https://img.shields.io/pypi/pyversions/fortnitepy">
+    </a>
+    <a href="https://flask.palletsprojects.com/en/3.0.x/" align="center">
+        <img alt="PEP8" src="https://img.shields.io/badge/Flask%20Docs-Python-blue">
+    </a>
+</p>
+
+<p align="center">Este proyecto es una API desarrollada en Flask para un sistema de facturación, que permite la autenticación de usuarios, así como la recuperación de información sobre facturas por día retornado por un endpoint en formato json. Este proyecto fue creado por Yulian Planas bajo la necesidad de un sistema de facturación para integraciones de aplicaciones destinadas a las necesidades de una PYME.</p>
+
+---
+## Instalación
+Requiere Python 3.11.5 o superior. Si quieres usar Python 3.7 (las versiones más recientes), puedes descargar en: [Python 3.7.0 Download](https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe "Python 3.6.1 Descarga").
+
+1. Crea un entorno virtual ***(Recomendado)***
+
+    ```
+    python.exe -m venv .env
+    ```
+
+2. Instala las dependencias necesarias.
+
+    ```
+    pip install -U -r requirements.txt
+    ```
+
+3.  Ejecuta el archivo desde la consola.
+
+    ```
+    python.exe index.py
+    ```
 
 ## Dependencias Principales
 
@@ -25,40 +57,7 @@ Este proyecto es una API desarrollada en Flask para un sistema de facturación, 
 - Se implementó un registro de conexiones en el endpoint `/login`, almacenando intentos de inicio de sesión en el archivo `log.txt` con información de hora y dirección IP.
 - Se implementó una librería `sslify` para la redirección automáticamente todas las solicitudes HTTP a HTTPS.
 
+---
 
-
-## DISCLAIMER
-### English
-This project is a guide created by Yulian Planas for application integrations designed to meet the needs of small and medium-sized enterprises (PYME). The use or modification of this project without the express authorization of Yulian Planas is prohibited.
-
-### License Agreement
-
-The use of this project is subject to the following license:
-
-1. **Personal Use:** You may use this project for your own needs and personal learning.
-
-2. **Commercial Use:** If you wish to use this project for commercial purposes, you must obtain prior authorization from Yulian Planas.
-
-3. **Distribution:** You may not distribute this project without the written consent of Yulian Planas.
-
-4. **Liability:** Yulian Planas is not responsible for any damage or consequences arising from the use or misuse of this project.
-
-Any questions or requests for authorization can be directed to [Yulianplanas@gmail.com].
-
-Thank you for respecting the terms of use.# FlaskAPI
-
-### Spanish
-
-### Licencia de Uso
-
-El uso de este proyecto está sujeto a la siguiente licencia:
-
-1. **Uso Personal:** Puedes utilizar este proyecto para tus propias necesidades y aprendizaje personal.
-
-2. **Uso Comercial:** Si deseas utilizar este proyecto con fines comerciales, debes obtener la autorización previa de Yulian Planas.
-
-4. **Distribución:** No puedes distribuir este proyecto sin el consentimiento por escrito de Yulian Planas.
-
-5. **Responsabilidad:** Yulian Planas no se hace responsable de cualquier daño o consecuencia derivada del uso o mal uso de este proyecto.
-
-Cualquier pregunta o solicitud de autorización puede dirigirse a [Yulianplanas@gmail.com].
+## License
+By downloading this, you agree to the Commons Clause license and that you're not allowed to sell this repository or any code from this repository. For more info see https://commonsclause.com/.
