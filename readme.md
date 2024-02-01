@@ -26,6 +26,7 @@ Este proyecto es una API desarrollada en Flask para un sistema de facturación, 
 - Se implementó una librería `sslify` para la redirección automáticamente todas las solicitudes HTTP a HTTPS.
 
 
+
 ## DISCLAIMER
 ### English
 This project is a guide created by Yulian Planas for application integrations designed to meet the needs of small and medium-sized enterprises (PYME). The use or modification of this project without the express authorization of Yulian Planas is prohibited.
