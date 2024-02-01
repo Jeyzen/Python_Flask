@@ -1,0 +1,15 @@
+2024-02-01 16:30:53,448 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-01 16:30:53,448 [INFO]: [33mPress CTRL+C to quit[0m
+2024-02-01 16:30:53,450 [INFO]:  * Restarting with stat
+2024-02-01 16:30:54,462 [WARNING]:  * Debugger is active!
+2024-02-01 16:30:54,464 [INFO]:  * Debugger PIN: 269-118-213
+2024-02-01 16:31:36,536 [INFO]: 127.0.0.1 - - [01/Feb/2024 16:31:36] "POST /login HTTP/1.1" 200 -
+2024-02-01 16:32:05,832 [INFO]: 127.0.0.1 - - [01/Feb/2024 16:32:05] "GET /facturas/?fecha=2023-10-01 HTTP/1.1" 200 -
+2024-02-01 16:33:40,281 [INFO]: 127.0.0.1 - - [01/Feb/2024 16:33:40] "[33mGET / HTTP/1.1[0m" 404 -
+2024-02-01 16:33:40,391 [INFO]: 127.0.0.1 - - [01/Feb/2024 16:33:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-02-01 16:33:47,313 [INFO]: 127.0.0.1 - - [01/Feb/2024 16:33:47] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+2024-02-01 16:33:54,453 [INFO]: 127.0.0.1 - - [01/Feb/2024 16:33:54] "[32mGET /facturas HTTP/1.1[0m" 308 -
+2024-02-01 16:33:54,455 [INFO]: 127.0.0.1 - - [01/Feb/2024 16:33:54] "[31m[1mGET /facturas/ HTTP/1.1[0m" 401 -
+2024-02-01 16:34:00,718 [INFO]: 127.0.0.1 - - [01/Feb/2024 16:34:00] "[33mGET / HTTP/1.1[0m" 404 -
+2024-02-01 16:34:26,679 [INFO]: 127.0.0.1 - - [01/Feb/2024 16:34:26] "[31m[1mGET /login HTTP/1.1[0m" 405 -
