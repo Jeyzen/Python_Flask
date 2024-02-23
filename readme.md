@@ -9,7 +9,7 @@
     </a>
 </p>
 
-<p align="center">Este proyecto es una API desarrollada en Flask para un sistema de facturación, que permite la autenticación de usuarios, así como la recuperación de información sobre facturas por día retornado por un endpoint en formato json. Este proyecto fue creado por Yulian Planas bajo la necesidad de un sistema de facturación para integraciones de aplicaciones destinadas a las necesidades de una PYME.</p>
+<p align="center">Este proyecto es una API desarrollada en Flask para un sistema de facturación, que permite la autenticación de usuarios, devuelve un token único temporal y envía una petición para obtener datos de una base 'MariaDB' y retorna información sobre facturas por día de un endpoint en formato json. Este proyecto fue creado por Yulian Planas bajo la necesidad de una aplicación para integraciones de tercero destinadas a las necesidades de una PYME para el manejo de stock y facturación.</p>
 
 ---
 ## Instalación
