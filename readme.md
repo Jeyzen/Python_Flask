@@ -38,7 +38,6 @@ Requiere Python 3.10 o superior. Si quieres usar Python 3.7 (las versiones más 
 1. **Flask**
 2. **Flask-JWT-Extended**
 3. **Flask-SQLAlchemy**
-4. **python-dotenv**
 
 ## Funcionalidades Principales
 
@@ -56,6 +55,10 @@ Requiere Python 3.10 o superior. Si quieres usar Python 3.7 (las versiones más 
  
 - Se implementó un registro de conexiones en el endpoint `/login`, almacenando intentos de inicio de sesión en el archivo `log.txt` con información de hora y dirección IP.
 - Se implementó una librería `sslify` para la redirección automáticamente todas las solicitudes HTTP a HTTPS.
+
+## Recomendaciones
+
+- Esta aplicación funciona localmente para el desarrollo de pruebas y estudio. Para usar en producción, se recomienda utilizar `gunicorn`, `nginx` y `docker`.
 
 ---
 
