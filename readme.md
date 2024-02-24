@@ -13,7 +13,7 @@
 
 ---
 ## Instalación
-Requiere Python 3.11.5 o superior. Si quieres usar Python 3.7 (las versiones más recientes), puedes descargar en: [Python 3.7.0 Download](https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe "Python 3.6.1 Descarga").
+Requiere Python 3.10 o superior. Si quieres usar Python 3.7 (las versiones más recientes), puedes descargar en: [Python 3.7.0 Download](https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe "Python 3.6.1 Descarga").
 
 1. Crea un entorno virtual ***(Recomendado)***
 
