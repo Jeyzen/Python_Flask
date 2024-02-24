@@ -1,8 +1,18 @@
 version: "3"
 
 services:
-  app:
-      build:
-          context: app
-      ports:
-          - "5000:5000"
+    app:
+        build:
+            context: .
+            dockerfile: /home/$user/desktop/app
+        ports:
+            - "80:5000"
+
+    nginx:
+        imagen: nginx:latest
+        volume: 
+            - ./home/$user/desktop/nginx/nginx.conf:ro
+        ports:
+            - "8080:80"
+        depends_on:
+            - app
