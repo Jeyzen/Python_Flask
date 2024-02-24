@@ -29,8 +29,7 @@ configure_routes(app)
 db.init_app(app)
 
 
-# Método para correr la aplicación en modo de desarrollo
-# if __name__ == '__main__':
-#     with app.app_context():
-#         db.create_all()
-#     app.run(host='0.0.0.0', port=443, debug=False, ssl_context='adhoc')
+if __name__ == '__main__':
+    with app.app_context():
+        db.create_all()
+    app.run(host='0.0.0.0', port=5000, debug=False)
