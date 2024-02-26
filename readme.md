@@ -1,8 +1,8 @@
 <h1 align="center">API FLASK</h1>
 
 <p align="center">
-    <a href="https://www.python.org/downloads/release/python-361/" align="center">
-        <img alt="Python" src="https://img.shields.io/pypi/pyversions/fortnitepy">
+    <a href="https://www.python.org/downloads/release/python-31012/" align="center">
+        <img alt="Python" src="https://img.shields.io/badge/Python%20Download-3.10.12-blue">
     </a>
     <a href="https://flask.palletsprojects.com/en/3.0.x/" align="center">
         <img alt="PEP8" src="https://img.shields.io/badge/Flask%20Docs-Python-blue">
@@ -13,7 +13,7 @@
 
 ---
 ## Instalación
-Requiere Python 3.10 o superior. Si quieres usar Python 3.7 (las versiones más recientes), puedes descargar en: [Python 3.7.0 Download](https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe "Python 3.6.1 Descarga").
+Requiere Python 3.10 o superior. Si quieres usar Python 3.7 (las versiones más recientes), puedes descargar en: [Python Official Downloads](https://www.python.org/downloads/ "Python Downloads").
 
 1. Crea un entorno virtual ***(Recomendado)***
 
