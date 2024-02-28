@@ -1,18 +1,15 @@
-version: "3"
+version: "3.7"
 
 services:
-    app:
+    api_flask:
         build:
-            context: .
-            dockerfile: /home/$user/desktop/app
+          context: /home/kali/Desktop/api/
         ports:
-            - "80:5000"
+          - "5000"
 
     nginx:
-        imagen: nginx:latest
-        volume: 
-            - ./home/$user/desktop/nginx/nginx.conf:ro
-        ports:
-            - "8080:80"
+        build: ./nginx
         depends_on:
-            - app
+          - api_flask
+        ports:
+          - "80:80"
