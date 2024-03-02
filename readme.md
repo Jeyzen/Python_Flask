@@ -1,4 +1,4 @@
-<h1 align="center">API FLASK</h1>
+<h1 align="center">REST API FLASK</h1>
 
 <p align="center">
     <a href="https://www.python.org/downloads/release/python-31012/" align="center">
@@ -54,7 +54,6 @@ Requiere Python 3.10 o superior. Si quieres usar Python 3.11 (las versiones más
 ## Registro de Conexiones
  
 - Se implementó un registro de conexiones en el endpoint `/login`, almacenando intentos de inicio de sesión en el archivo `log.txt` con información de hora y dirección IP.
-- Se implementó una librería `sslify` para la redirección automáticamente todas las solicitudes HTTP a HTTPS.
 
 ## Recomendaciones
 
